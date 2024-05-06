@@ -13,7 +13,7 @@ void main() {
     stdout.writeln("1. Case 1: Unearthing the Philosopher's Stone");
     stdout.writeln('2. Case 3: The Never ending Palindrome Quest');
     stdout.writeln('3. Exit');
-    stdout.write('Input number [1 - 4] (refer to the number on the left): ');
+    stdout.write('Input number [1 - 3] (refer to the number on the left): ');
     inputCase = int.parse(stdin.readLineSync() ?? '0');
     switch (inputCase) {
       case 1:
